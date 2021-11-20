@@ -24,6 +24,7 @@ function SIPLogin({
           autoComplete="off"
           value={password}
           onChange={(e) => setPassword(e.currentTarget.value)}
+          style={{ marginTop: 0 }}
         />
       </div>
       <div style={{ textAlign: 'center' }}>

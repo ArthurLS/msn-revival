@@ -15,8 +15,10 @@ const lib = {
   call: faPhoneAlt
 };
 
-function FontAwesome({ icon }) {
-  return lib[icon] ? <FontAwesomeIcon icon={lib[icon]} /> : <FontAwesomeIcon icon={lib.atom} />;
+function FontAwesome({ icon, style }) {
+  return lib[icon]
+    ? <FontAwesomeIcon icon={lib[icon]} style={style} />
+    : <FontAwesomeIcon icon={lib.atom} />;
 }
 
 export default FontAwesome;

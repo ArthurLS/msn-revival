@@ -29,7 +29,7 @@ function VideosDisplay({
             onClick={endCall}
             style={{ backgroundColor: 'red' }}
           >
-            <FontAwesome icon="hangUp" />
+            <FontAwesome icon="call" style={{ transform: 'rotate(135deg)' }} />
           </button>
         )}
         {isIncomingCall && callStatus === 'awaiting' && (

@@ -29,18 +29,19 @@
 }
 .input-block {
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 15px;
   color: #10109b;
 }
 .input-block input {
   background-color: #ffffff00;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 18px;
   width: 300px;
   height: 30px;
   padding: 4px 0px;
   border: 1px solid gray;
   border-width: 0px 0px 2px 0px;
+  outline: none;
   margin-bottom: 5px;
 }
 
